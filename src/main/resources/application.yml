@@ -1,0 +1,13 @@
+spring:
+    application:
+        name: forohub-challenge
+    # colors in console
+    output:
+        ansi:
+            enabled: always
+    jpa:
+        show-sql: true
+        format-sql: true
+
+server:
+    port: 8081
