@@ -8,6 +8,13 @@ spring:
     jpa:
         show-sql: true
         format-sql: true
+    datasource:
+        url: jdbc:postgresql://localhost/forohub
+        username: postgres
+        password: postgres
+        driver-class-name: org.postgresql.Driver
+hibernate:
+    dialect: org.hibernate.dialect.HSQLDialect
 
 server:
     port: 8081
